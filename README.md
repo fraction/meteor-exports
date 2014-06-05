@@ -17,7 +17,7 @@ Any time you declare something to be `module.exports`, it's automatically export
 
 ```js
 module.exports = {
-  foo = 42
+  foo : 42
 };
 
 console.log(foo); // 42
@@ -27,7 +27,7 @@ You can also use the `exports` shortcut to [reference the global namespace](http
 
 ```js
 module.exports = {
-  foo = 42
+  foo : 42
 };
 
 console.log(exports.foo); // 42
