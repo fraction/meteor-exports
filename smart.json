@@ -1,8 +1,8 @@
 {
   "name": "exports",
-  "description": "Export variables to the global namespace with `module.exports` in Meteor.",
-  "homepage": "https://github.com/christianbundy/meteor-exports",
+  "description": "A Meteor polyfill for accessing the global namespace with `module.exports`.",
+  "homepage": "https://github.com/fraction/meteor-exports",
   "author": "Christian Bundy <me@christianbundy.com>",
   "version": "1.0.0",
-  "git": "https://github.com/christianbundy/meteor-exports.git"
+  "git": "https://github.com/fraction/meteor-exports.git"
 }
