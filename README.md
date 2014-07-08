@@ -1,52 +1,19 @@
-Meteor Exports
-==============
+# Meteor Exports Polyfill
 
-Export variables to the global namespace with `module.exports` in Meteor.
+A wrapper around [Exports Polyfill](https://github.com/fraction/exports-polyfill).
 
-## Getting Started
+## Installation
 
-Once you've installed [Meteor](https://www.meteor.com/) and [Meteorite](https://github.com/oortcloud/meteorite/), install `exports`.
+Once you've installed [Meteor](https://www.meteor.com/) and [Meteorite](https://github.com/oortcloud/meteorite/), install with `mrt`:
 
 ```
 mrt install exports
 ```
 
-## Usage
+## Support
 
-Any time you declare something to be `module.exports`, it's automatically exported to the global namespace.
+Please [open an issue](https://github.com/fraction/meteor-exports/issues/new) for questions and concerns.
 
-```js
-module.exports = {
-  foo: 42
-};
+## Contributing
 
-console.log(foo); // 42
-```
-
-You can also use the `exports` shortcut to [reference the global namespace](http://nodejs.org/api/modules.html#modules_exports_alias).
-
-```js
-module.exports = {
-  foo: 42
-};
-
-console.log(exports.foo); // 42
-```
-
-## License
-
-```
-Copyright 2014 Christian Bundy
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+Fork the project, commit your changes, and [open a pull request](https://github.com/fraction/meteor-exports/compare/).
