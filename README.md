@@ -1,6 +1,6 @@
-# Meteor Exports Polyfill
+# Meteor [Exports Polyfill](https://github.com/fraction/exports-polyfill)
 
-A wrapper around [Exports Polyfill](https://github.com/fraction/exports-polyfill).
+A Meteor polyfill for accessing the global namespace with `module.exports`.
 
 ## Installation
 
