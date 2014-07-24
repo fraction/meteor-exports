@@ -2,7 +2,7 @@
   "name": "exports",
   "description": "A Meteor polyfill for accessing the global namespace with `module.exports`.",
   "homepage": "https://github.com/fraction/meteor-exports",
-  "author": "Christian Bundy <me@christianbundy.com>",
+  "author": "Fraction <us@fraction.io>, Christian Bundy <me@christianbundy.com>",
   "version": "1.0.0",
   "git": "https://github.com/fraction/meteor-exports.git"
 }
